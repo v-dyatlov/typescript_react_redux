@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>App on React+Redux+TS!</title>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
+        #map {
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>Sugar CRM test task</h1>
+        <hr>
+    </div>
+
+    <div class="col-md-12">
+        <div class="row">
+            <div id="app"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</div>
+
+<!-- Dependencies -->
+<script src="./node_modules/react/umd/react.development.js"></script>
+<script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1OpRfoEYdypzEXYKx50s98QdnO3ryBLo" type="text/javascript"></script>
+
+<!-- Main -->
+<script src="./dist/bundle.js"></script>
+</body>
+</html>
